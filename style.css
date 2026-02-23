@@ -1,0 +1,123 @@
+body {
+    background: linear-gradient(135deg, #fff0f6, #ffe4ec);
+    font-family: 'Segoe UI', sans-serif;
+    padding-top: 80px;
+}
+
+.text-pink {
+    color: #e75480;
+}
+
+.bg-pink {
+    background: linear-gradient(135deg, #ff6f91, #e75480);
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #ffd6e7, #ffb6c1);
+    padding: 140px 0;
+}
+
+.section-title {
+    font-weight: 700;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #e75480;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.glass-card {
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+}
+
+.progress {
+    height: 22px;
+    border-radius: 30px;
+    background-color: #ffd6e7;
+}
+
+.progress-bar {
+    border-radius: 30px;
+    background: linear-gradient(90deg, #ff6f91, #e75480);
+}
+
+.timeline {
+    border-left: 3px solid #e75480;
+    padding-left: 20px;
+}
+
+.timeline-item {
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+
+.timeline-item:hover {
+    transform: translateX(5px);
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -12px;
+    width: 15px;
+    height: 15px;
+    background: #e75480;
+    border-radius: 50%;
+}
+
+.project-card-modern {
+    overflow: hidden;
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+.project-card-modern img {
+    transition: 0.4s;
+}
+
+.project-card-modern:hover img {
+    transform: scale(1.1);
+}
+
+.project-card-modern:hover {
+    box-shadow: 0 20px 50px rgba(231,84,128,0.4);
+}
+
+.cert-card {
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+.cert-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 50px rgba(231,84,128,0.3);
+}
+
+.btn-outline-pink {
+    border: 1px solid #e75480;
+    color: #e75480;
+}
+
+.btn-outline-pink:hover {
+    background-color: #e75480;
+    color: white;
+}
+
+.border-pink {
+    border: 2px solid #e75480 !important;
+}
+
+.highlight-exp {
+    background-color: #ffe4ec;
+    padding: 10px;
+    border-radius: 10px;
+}
