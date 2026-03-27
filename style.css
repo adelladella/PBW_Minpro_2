@@ -281,18 +281,15 @@ html {
     scroll-behavior: smooth;
 }
 
-/* FONT JUDUL */
 h1, h2, h3, .navbar-brand {
     font-family: 'Playfair Display', serif;
 }
 
 
-/* SEMUA TEKS ISI */
 h4, h5, h6, p, label, small, .card, .timeline-item {
     font-family: 'Poppins', sans-serif;
 }
 
-/* BIAR LEBIH CANTIK */
 h1 {
     letter-spacing: 1px;
 }
