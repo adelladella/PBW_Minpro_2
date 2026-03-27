@@ -1,7 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #ffd6e7;
-    padding-top: 120px;
+    padding-top: 110px;
+    scroll-padding-top: 180px;
 }
 
 .text-pink {
@@ -145,18 +146,6 @@ body {
     color: #e75480;
 }
 
-body {
-    background: #f8c8d8;
-    font-family: 'Segoe UI', sans-serif;
-    padding-top: 120px;
-}
-
-body {
-    background: #ffd6e7; 
-    font-family: 'Segoe UI', sans-serif;
-    padding-top: 120px;
-}
-
 .hero-image-wrapper {
     display: flex;
     justify-content: center;
@@ -285,7 +274,6 @@ h1, h2, h3, .navbar-brand {
     font-family: 'Playfair Display', serif;
 }
 
-
 h4, h5, h6, p, label, small, .card, .timeline-item {
     font-family: 'Poppins', sans-serif;
 }
@@ -301,4 +289,33 @@ h1 {
 .section-title {
     font-family: 'Playfair Display', serif;
     letter-spacing: 1px;
+}
+
+label {
+    font-size: 14px;
+}
+
+.progress-bar {
+    font-size: 12px;
+}
+
+.timeline-item h6 {
+    font-size: 15px;
+}
+
+.timeline-item p {
+    font-size: 14px;
+}
+
+.timeline-item small {
+    font-size: 13px;
+}
+
+.section-title {
+    font-size: 26px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
 }
